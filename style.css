@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-size: max(1200px,100vw);
+    background-image: url(img/IN-en-20240212-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .box{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.nav img{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+.nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding: 90px;
+}
+
+.hero> :first-child{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-size: 20px;
+    text-align: center;
+}
+
+.lang{
+    width: 70px;
+    height: 25px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.hero input{
+    width: 240px;
+    height: 45px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-1{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-1 :hover{
+    background-color: rgb(229, 9, 20);
+}
+
+.btn-2{
+    width: 120px;
+    height: 45px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-2 :hover{
+    background-color: rgb(229, 9, 20);
+}
+
+.seperation{
+    height: 11px;
+    background-color: rgb(36, 34, 34);
+}
+
+/*  MAIN SECTIONCODE */
+
+
+/*SECTION-FIRST*/
+main .First{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    margin-bottom: 50px;
+    width: 70vw;
+    gap: 10px;
+}
+.First div h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.First div h3{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+main .SecTV{
+   position: relative;
+}
+.SecTV .vid-1{
+    position: absolute;
+    right: 75px;
+    top: 92px;
+     z-index: -10;
+}
+
+/*SECTION-SECOND*/
+main .Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 70vw;
+    gap: 10px;
+}
+.Second div h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.Second div h3{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+/*SECTION-THIRD*/
+main .Third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 70vw;
+    gap: 10px;
+}
+.Third div h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.Third div h3{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+main .SecTV{
+    position: relative;
+ }
+ .SecTV .vid-2{
+    position: absolute;
+    right: 125px;
+    top: 48px;
+    z-index: -170;
+    height: 50%;
+    width: 64%;
+ }
+/*SECTION-FOURTH*/
+main .Fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 70vw;
+    gap: 10px;
+}
+.Fourth div h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.Fourth div h3{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+/*faq-code*/
+
+.Faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:50px;
+}
+.Faqbox{
+    background-color: rgb(36, 34, 34);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px;
+    height: 50px;
+    width: 70%;
+    margin-top: 5px;
+}
+.Faqbox:hover{
+    background-color: rgb(60, 60, 60);
+    transition: all 1s ease-out;
+}
+.Faqbox p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.Faqbox img{
+    width: 25px;
+}
+
+
+/*Footer-Code*/
+
+footer{
+    color: gray;
+    max-width: 70vw;
+    margin: auto;
+    padding: 50px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .footer-item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.footer-item a{
+    font-size: 14px;
+    color: gray;
+    
+}
